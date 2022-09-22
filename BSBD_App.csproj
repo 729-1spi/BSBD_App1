@@ -307,5 +307,8 @@
   <ItemGroup>
     <None Include="Resources\inform.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="DataBase\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

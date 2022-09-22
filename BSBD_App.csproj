@@ -45,21 +45,167 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClassMD5.cs" />
+    <Compile Include="DataBase.cs" />
+    <Compile Include="FormAccMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAccMain.Designer.cs">
+      <DependentUpon>FormAccMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAccountant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAccountant.Designer.cs">
+      <DependentUpon>FormAccountant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDeductions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDeductions.Designer.cs">
+      <DependentUpon>FormDeductions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormHistory.Designer.cs">
+      <DependentUpon>FormHistory.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormMain.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormMain.Designer.cs">
       <DependentUpon>FormMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormMoneyIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMoneyIn.Designer.cs">
+      <DependentUpon>FormMoneyIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMonOut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMonOut.Designer.cs">
+      <DependentUpon>FormMonOut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNewDeduction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNewDeduction.Designer.cs">
+      <DependentUpon>FormNewDeduction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNewMoneyIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNewMoneyIn.Designer.cs">
+      <DependentUpon>FormNewMoneyIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNewNumber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNewNumber.Designer.cs">
+      <DependentUpon>FormNewNumber.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNewWorker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNewWorker.Designer.cs">
+      <DependentUpon>FormNewWorker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormNumber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormNumber.Designer.cs">
+      <DependentUpon>FormNumber.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormOutMoney.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormOutMoney.Designer.cs">
+      <DependentUpon>FormOutMoney.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormRegistrAc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormRegistrAc.Designer.cs">
+      <DependentUpon>FormRegistrAc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSignIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSignIn.Designer.cs">
+      <DependentUpon>FormSignIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTest.Designer.cs">
+      <DependentUpon>FormTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormWorker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormWorker.Designer.cs">
+      <DependentUpon>FormWorker.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WorkDataSet.Designer.cs">
+    <Compile Include="WorkDataSet1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>WorkDataSet.xsd</DependentUpon>
+      <DependentUpon>WorkDataSet1.xsd</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="FormAccMain.resx">
+      <DependentUpon>FormAccMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAccountant.resx">
+      <DependentUpon>FormAccountant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDeductions.resx">
+      <DependentUpon>FormDeductions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormHistory.resx">
+      <DependentUpon>FormHistory.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMoneyIn.resx">
+      <DependentUpon>FormMoneyIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMonOut.resx">
+      <DependentUpon>FormMonOut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNewDeduction.resx">
+      <DependentUpon>FormNewDeduction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNewMoneyIn.resx">
+      <DependentUpon>FormNewMoneyIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNewNumber.resx">
+      <DependentUpon>FormNewNumber.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNewWorker.resx">
+      <DependentUpon>FormNewWorker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormNumber.resx">
+      <DependentUpon>FormNumber.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormOutMoney.resx">
+      <DependentUpon>FormOutMoney.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormRegistrAc.resx">
+      <DependentUpon>FormRegistrAc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSignIn.resx">
+      <DependentUpon>FormSignIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTest.resx">
+      <DependentUpon>FormTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormWorker.resx">
+      <DependentUpon>FormWorker.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -80,16 +226,16 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="WorkDataSet.xsc">
-      <DependentUpon>WorkDataSet.xsd</DependentUpon>
+    <None Include="WorkDataSet1.xsc">
+      <DependentUpon>WorkDataSet1.xsd</DependentUpon>
     </None>
-    <None Include="WorkDataSet.xsd">
+    <None Include="WorkDataSet1.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>WorkDataSet.Designer.cs</LastGenOutput>
+      <LastGenOutput>WorkDataSet1.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="WorkDataSet.xss">
-      <DependentUpon>WorkDataSet.xsd</DependentUpon>
+    <None Include="WorkDataSet1.xss">
+      <DependentUpon>WorkDataSet1.xsd</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>
@@ -124,6 +270,42 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\history_money.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Auth.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eye1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eye2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Registr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\research.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clear1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\passno.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inform.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

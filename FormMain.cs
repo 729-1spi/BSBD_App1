@@ -13,6 +13,8 @@ namespace BSBD_App
 {
     public partial class FormMain : Form
     {
+
+        DataBase dataBase = new DataBase();
         public FormMain()
         {
             InitializeComponent();
@@ -26,6 +28,7 @@ namespace BSBD_App
         private void FormMain_FormClosing(object sender, FormClosingEventArgs e)
         {
             e.Cancel = MessageBox.Show("Вы хотите закрыть программу?", "Внимание", MessageBoxButtons.YesNo, MessageBoxIcon.Question) != DialogResult.Yes;
+           
         }
 
         private void оПрограммеToolStripMenuItem_Click(object sender, EventArgs e)
@@ -42,6 +45,41 @@ namespace BSBD_App
         private void FormMain_FormClosed(object sender, FormClosedEventArgs e)
         {
             Settings.Default.Save();
+        }
+
+        private void счётToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            FormNumber.fw.ShowForm();
+        }
+
+        private void работникиToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormWorker.fw.ShowForm();
+        }
+
+        private void историяЗаработнойПлатыToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormHistory.fw.ShowForm();
+        }
+
+        private void FormMain_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void бухгалтерToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormAccountant.fw.ShowForm();
+        }
+
+        private void выплатыToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            FormMoneyIn.fw.ShowForm();
+        }
+
+        private void отчисленияToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormDeductions.fw.ShowForm();
         }
     }
 }

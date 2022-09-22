@@ -16,7 +16,7 @@ namespace BSBD_App
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormMain());
+            Application.Run(new FormSignIn());
         }
     }
 }
